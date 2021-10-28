@@ -1,5 +1,7 @@
 #!/bin/bash
 
+host_gateway="host-gateway"
+derived_host_docker_internal=
 echo "Starting nc listener on host side, listening on 9999"
 nc -l 0.0.0.0 9999 &
 ncpid=$!
