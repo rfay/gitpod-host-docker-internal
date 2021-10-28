@@ -1,7 +1,5 @@
 #!/bin/bash
 
-sudo apt-get update >/dev/null && sudo apt-get install jq netcat >/dev/null
-
 nc -l 0.0.0.0 9999 &
 ncpid=$!
 
