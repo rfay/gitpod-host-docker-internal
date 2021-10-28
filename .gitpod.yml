@@ -1,6 +1,7 @@
 tasks:
   - init: |
       sudo apt-get update >/dev/null && sudo apt-get install jq netcat
+      docker pull drud/ddev-webserver:v1.18.0
 
 
 github:
